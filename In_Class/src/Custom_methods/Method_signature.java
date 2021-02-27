@@ -11,11 +11,13 @@ public class Method_signature {
 		
 		System.out.println(firstName);
 		
+		// COME BACK AT 11:40
+		
 
 	}
 	
  // modifier         // return type     //method name
-	public   static   void              Practice_method() {
+	public   static   void              Practice_method() {  // method body
 		System.out.println("Hi, I'm here to practice");
 	}
 	 
@@ -47,5 +49,25 @@ public class Method_signature {
 	 *  Parameters in a custom method - is a parameters that your method requires to 
 	 *  
 	 */
+	 
+	 /*
+	  * Step by step instruction on how to create a custom method
+	  * 
+	  * 1. Start with any access modifier you think it's right for your case
+	  * 2. Add static to your method signature
+	  * 3. Choose a return type of your method - means whatever you want to return.
+	  * 4. Add a method name.
+	  * 5. Add parameters if needed.
+	  * 6. Add a method body. -  { method body }
+	  * 7. Add a return keyword if your return type is other then void.
+	  */
+	 
+ // access modifier  // return type  // method name	- required fields      // method parameters - optional (if needed)
+	 public static        int          AddTwoNumbers                     (int firstNumber, int secondNumber) {  // non-static method can access static and non-static methods
+		 return firstNumber + secondNumber;
+		 //return 123;
+	 }
+	 
+	 
 
 }
