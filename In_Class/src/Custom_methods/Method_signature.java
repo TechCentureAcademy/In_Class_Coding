@@ -45,6 +45,7 @@ public class Method_signature {
 	 *  float
 	 *  bite
 	 *  char
+	 *  Arrays (String[], int[] and so on)
 	 *  
 	 *  Parameters in a custom method - is a parameters that your method requires to 
 	 *  

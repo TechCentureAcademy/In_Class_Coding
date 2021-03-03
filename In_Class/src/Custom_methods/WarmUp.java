@@ -18,23 +18,18 @@ public class WarmUp {
 		 * 
 		 * 25, 26, 27, 28..... 45, 46. Done
 		 */
+		
 		// Getting two numbers
 		int firstNumber = getTheNumber();	
 		int secondNumber = getTheNumber();
 		
 		// printing all numbers from smaller to the greater
-		printAllNumbers(firstNumber, secondNumber);
-		
-
+		printAllNumbers(firstNumber, secondNumber);  // call and execute this method printAllNumbers(25, 46) with parameters( numbers 25 and 46) 
+		                                             // that provided above
+	
 	}
 
-	public static int getTheNumber() {
-		Scanner scanner = new Scanner(System.in);
-		System.out.println("Please, enter the number!");
-		int number = scanner.nextInt();
-		return number;	
-	}
-
+	                                        // 25            46
 	public static void printAllNumbers(int firstNum, int secondNum) {
 		if(firstNum < secondNum) {
 			for(int index = firstNum; index <= secondNum; index++) {
@@ -45,5 +40,12 @@ public class WarmUp {
 				System.out.print(index + ", ");
 			}
 		
+	}
+	
+	public static int getTheNumber() {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Please, enter the number!");
+		int number = scanner.nextInt();
+		return number;	
 	}
 }
