@@ -50,7 +50,7 @@ public class toUpperCase_CustomMethod {
 
 	public static String getTheSentance() {
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Please, enter the sentance");
+		System.out.println("Please, put the word");
 		String sentance = scanner.nextLine();
 		return sentance;
 	}
