@@ -6,6 +6,8 @@ public class Natella_methods {
 	
 	Scanner scan = new Scanner(System.in);
 	
+	// Create a class with a Feet to Meter coverter - divide the length value by 3.281
+	
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		Natella_methods gettingTemp = new Natella_methods();
