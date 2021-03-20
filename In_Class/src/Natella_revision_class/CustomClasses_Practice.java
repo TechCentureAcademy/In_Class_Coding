@@ -27,7 +27,6 @@ public class CustomClasses_Practice {
  *   And for a setter before setting the ssn, make sure it's 9 digit
  * 
  * 
- * 
 */
 
 
