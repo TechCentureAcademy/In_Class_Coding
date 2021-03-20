@@ -6,7 +6,10 @@ public class Natella_methods {
 	
 	Scanner scan = new Scanner(System.in);
 	
-	// Create a class with a Feet to Meter coverter - divide the length value by 3.281
+	// Create a class with a Feet to Meter coverter - divide the length value by 3.281   Meter = Feet/3.281;
+	
+	
+	//  Come back at 8:15
 	
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
@@ -27,12 +30,13 @@ public class Natella_methods {
 		
 	}
 	
+	public static double convertingFtoC = 56;
 	public static double ConvertingFtoC(double Fahrenheit) {
 		return (Fahrenheit-32)*5/9.0;
 	}
 	
 	public double GettingTemperature() {
-		//Scanner scan = new Scanner(System.in);
+		Scanner scan = new Scanner(System.in);
 		System.out.println("Please enter the temperature in F: ");
 		double Fahrenheit = scan.nextDouble();
 		return Fahrenheit;
