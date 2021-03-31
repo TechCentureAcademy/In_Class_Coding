@@ -16,6 +16,5 @@ public final class Final_Practice extends Inheritance_verification {
 	// Non static members can access both static and 
 	// non static members
 	
-	// COME BACK AT 8:45
 
 }
